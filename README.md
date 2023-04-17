@@ -1,4 +1,5 @@
 # Lab-4-DM
+```
 from collections import defaultdict
 
 
@@ -83,3 +84,4 @@ max_flow, chosen_paths = g.ford_fulkerson(source, sink)
 
 print("Max Flow: %d " % max_flow)
 print("Chosen Paths: ", chosen_paths)
+```
